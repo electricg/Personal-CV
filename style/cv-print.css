@@ -1,0 +1,10 @@
+body {
+    margin: 10px auto;
+    width: 700px;
+}
+section {
+    margin-bottom: 12px;
+}
+p a:after {
+    content: " ("attr(href)")";
+}
