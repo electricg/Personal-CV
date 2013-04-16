@@ -8,3 +8,6 @@ section {
 p a:after {
     content: " ("attr(href)")";
 }
+ol li {
+    page-break-inside: avoid;
+}
