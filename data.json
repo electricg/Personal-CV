@@ -1,0 +1,181 @@
+{
+	"person": {
+		"name": "Giulia",
+		"surname": "Alfonsi",
+		"pron": "|ˈdʒuːlɪə| |alˈfɒnsɪ|"
+	},
+	"contact": {
+		"tel": "{#telephone#}",
+		"email": "{#email#}",
+		"address": {
+			"street-address": "{#street-address#}",
+			"locality": "{#locality#}",
+			"postal-code": "{#postal-code#}"
+		},
+		"skype": "electric_g",
+		"twitter": "electric_g",
+		"github": "electricg",
+		"linkedin": "in/giuliaalfonsi"
+	},
+	"about": {
+		"items": [
+			{
+				"title": "Nationality",
+				"value": ["Italian"]
+			},
+			{
+				"title": "Spoken languages",
+				"value": ["Italian (native)", "English (full professional proficiency)"]
+			}
+		]
+	},
+	"portfolio": {
+		"title": "giugee.com/portfolio",
+		"link": "http://giugee.com/portfolio"
+	},
+	"intro": {
+		"items": [
+			"I started studying HTML more in 1998 during high school, and since then I've never stopped learning about the new technologies that arise in the web, keeping myself updated through the use of RSS feeds earlier and Twitter now.",
+			"On the Front End side, I've always believed in and tried to reach the perfect division between semantic HTML markup and presentational CSS, trying to balance the clients' requests for a pixel-perfect design with the new techniques brought by modern browsers and with the cardinal idea of a web accessible to all.",
+			"Nowadays my interest is towards the new techniques and technologies that are involved in the web development for the moltitude of devices available now and in the next future.",
+			"I'm not a &ldquo;9-to-5&rdquo; coder. I live this job as one of my passion and, as such, I put as much effort as I can into it, by studying everyday, trying to find best solutions for every task and by getting full understanding of my technical choices. Thus I expect to work for a company who considers this as a must for every developer, since I want to share knowledge with my colleagues and improve myself day by day with them."
+		]
+	},
+	"skills": {
+		"items": [
+			"XHTML1.0/HTML4.01 (strict mode) / HTML5 markup",
+			"CSS / CSS3 (responsive, adaptive, crossdevice, crossbrowser)",
+			"SASS / SCSS",
+			"JavaScript (DOM manipulation, AJAX) / jQuery",
+			"PHP5 / MySql / LAMP",
+			"Git",
+			"Adobe Fireworks",
+			"Mac, Windows, Linux (Debian/Ubuntu)"
+		]
+	},
+	"employment": {
+		"items": [
+			{
+				"role": "Front End Developer",
+				"when": {
+					"from": "2012-05-17",
+					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "Tizuni",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop the front end code for our clients' projects, using Html, Css, Sass, JavaScript and jQuery, through the last cutting-edge techniques to support all the variety of devices, resolutions and bandwidths."
+				]
+			},
+			{
+				"role": "Developer",
+				"when": {
+					"from": "2012-02-13",
+					"to": "2012-04-19"
+				},
+				"where": {
+					"company": "Epic",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop DHTML interfaces for e-learning applications, supporting a wide range of browsers (from Internet Explorer 6 to the latest modern ones), operating systems and devices (desktop, smartphones, tablets)."
+				]
+			},
+			{
+				"role": "User Interface Developer",
+				"when": {
+					"from": "2011-03-14",
+					"to": "2012-02-10"
+				},
+				"where": {
+					"company": "Pure360",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I perform all aspects of product and custom software UI development with future-proofing, reusability of code and platform compatibility (from the latest browsers down to Internet Explorer 7, with an eye for the mobile support).",
+					"I provide knowledge and suggestion in relation to UI architecture, design, best practice and latest UI development techniques and methodologies."
+				]
+			},
+			{
+				"role": "Volunteer",
+				"when": {
+					"from": "2011-09-05"
+				},
+				"where": {
+					"company": "Update Conference - The human touch: iOS &amp; beyond",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"Update was a new mobile conference taking place in Brighton Dome and Brighton Museum &amp; Art Gallery, as part of the Brighton Digital Festival. I was one of the team of friendly volunteers welcoming some of the top names in iOS, web, and user experience to the city, registering attendees, and generally helping everything to run smoothly."
+				]
+			},
+			{
+				"role": "Freelance Web Developer",
+				"when": {
+					"from": "2010-11-01",
+					"to": "2011-01-31"
+				},
+				"where": {
+					"company": "Digitalinnovation"
+				}
+			},
+			{
+				"role": "Web Developer",
+				"when": {
+					"from": "2008-01-28",
+					"to": "2010-04-16"
+				},
+				"where": {
+					"company": "Digitalinnovation"
+				},
+				"what": [
+					"I created XHTML/CSS/JavaScript templates from PSD files, using SEO friendly markup and crossbrowser techniques to achieve pixel-perfect designs, from newest browsers to IE old versions, according to the clients' needs. I worked side by side with the graphic designers, combining their ideas with my technical knowledge and experience in the web field.",
+					"Using PHP and MySQL, I developed cms to facilitate the management of websites for small and big companies, with an eye on the user interface, adapting it for less technically experienced users.",
+					"I was involved in the planning and development of web-based accounting software, which was custom-made according to our client's needs and daily feedbacks.<br>For the development of this software I mostly used object-oriented PHP, AJAX, RTF (for the creation of documents) and I successfully installed a LAMP server in the company offices. This project also offered me the opportunity to improve my knowledge of jQuery, which was an important part in the creation of a clear, easy-to-use and fast user interface, enabling the filling of hundreds of daily forms."
+				]
+			},
+			{
+				"role": "IT support and sales advisor",
+				"when": {
+					"from": "2002-12-04",
+					"to": "2003-08-31"
+				},
+				"where": {
+					"company": "Centro Computer Parma"
+				},
+				"what": [
+					"I assembled and sold computers and gave software, hardware and on-site advice and assistance. I developed websites and accounting software using ASP and Access."
+				]
+			}
+		]
+	},
+	"education": {
+		"items": [
+			{
+				"when": {
+					"from": "2003-10-01",
+					"to": "2007-08-31"
+				},
+				"where": "Università degli Studi di Parma",
+				"what": "Information Technology"
+			},
+			{
+				"when": {
+					"from": "2001-05-01"
+				},
+				"where": "University of Cambridge",
+				"what": "Key English Test (KET): Pass with Merit"
+			},
+			{
+				"when": {
+					"from": "1997-09-15",
+					"to": "2002-07-02"
+				},
+				"where": "Istituto Tecnico Statale Per Geometri Camillo Rondani",
+				"what": "High school"
+			}
+		]
+	}
+}
