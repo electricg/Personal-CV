@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule cv.html cv.php [L]
+RewriteRule cv.htm cv-controller.php [L]
