@@ -34,6 +34,21 @@ $string = preg_replace_callback($pattern, 'replacement', $string);
 
 $json = json_decode($string, true);
 
+// decode newline characters
+function d($arr) {
+	foreach ($arr as $key => $value) {
+		if (gettype($value) == 'array') {
+			$arr[$key] = d($value);
+		}
+		elseif (gettype($value) == 'string') {
+			// inserts HTML line breaks before all newlines
+			$arr[$key] = nl2br($value, false);
+		}
+	}
+	return $arr;
+}
+$json = d($json);
+
 $cv = $tpl->render($json);
 echo $cv;
 ?>
