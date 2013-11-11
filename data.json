@@ -58,8 +58,22 @@
 			{
 				"role": "Front End Developer",
 				"when": {
-					"from": "2012-05-17",
+					"from": "2013-06-17",
 					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "DC Storm",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop the user interface of DC Storm web applications using Ext JS, JavaScript and Css."
+				]
+			},
+			{
+				"role": "Front End Developer",
+				"when": {
+					"from": "2012-05-17",
+					"to": "2013-04-30"
 				},
 				"where": {
 					"company": "Tizuni",
