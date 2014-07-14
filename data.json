@@ -43,10 +43,10 @@
 	},
 	"skills": {
 		"items": [
-			"XHTML1.0/HTML4.01 (strict mode) / HTML5 markup",
+			"XHTML1.0/HTML4.01 (strict mode) / HTML5 markup / SVG",
 			"CSS / CSS3 (responsive, adaptive, crossdevice, crossbrowser)",
 			"SASS / SCSS",
-			"JavaScript (DOM manipulation, AJAX) / jQuery",
+			"JavaScript (DOM manipulation, AJAX, Canvas) / jQuery",
 			"PHP5 / MySql / LAMP",
 			"Git",
 			"Adobe Fireworks",
@@ -56,10 +56,26 @@
 	"employment": {
 		"items": [
 			{
+				"role": "Front End / JavaScript Developer",
+				"when": {
+					"from": "2014-02-25",
+					"to": "{{@today}}",
+					"//to": "2014-08-22"
+				},
+				"where": {
+					"company": "Left Logic",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I work on <a href='http://jsbin.com/'>JS Bin</a>, a code sharing site that enables users to learn, experiment and teach using web technologies.",
+					"I also work on the website for <a href='http://2014.full-frontal.org/'>Full Frontal</a>, the UK's leading JavaScript conference."
+				]
+			},
+			{
 				"role": "Front End Developer",
 				"when": {
 					"from": "2013-06-17",
-					"to": "{{@today}}"
+					"to": "2014-02-21"
 				},
 				"where": {
 					"company": "DC Storm",
