@@ -56,11 +56,10 @@
 	"employment": {
 		"items": [
 			{
-				"role": "Front End / JavaScript Developer",
+				"role": "Front End / JavaScript Developer - Contract",
 				"when": {
 					"from": "2014-02-25",
-					"to": "{{@today}}",
-					"//to": "2014-08-22"
+					"to": "2014-08-22"
 				},
 				"where": {
 					"company": "Left Logic",
