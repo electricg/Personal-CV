@@ -56,6 +56,20 @@
 	"employment": {
 		"items": [
 			{
+				"role": "Software Engineer",
+				"when": {
+					"from": "2014-09-17",
+					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "Ocasta Studios",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop mobile websites and webapps."
+				]
+			},
+			{
 				"role": "Front End / JavaScript Developer - Contract",
 				"when": {
 					"from": "2014-02-25",
