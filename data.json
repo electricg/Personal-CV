@@ -1,8 +1,7 @@
 {
 	"person": {
 		"name": "Giulia",
-		"surname": "Alfonsi",
-		"pron": "|ˈdʒuːlɪə| |alˈfɒnsɪ|"
+		"surname": "Alfonsi"
 	},
 	"contact": {
 		"tel": "{#telephone#}",

@@ -1,12 +1,7 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <title>{{person.name}} {{person.surname}} &ndash; Curriculum Vitae</title>
@@ -14,35 +9,14 @@
     <meta name="author" content="{{person.name}} {{person.surname}}">
     <meta name="robots" content="noindex">
     <link rel="profile" href="http://microformats.org/profile/hcard">
-    <script src="../lib/js/modernizr-2.0.6-jquery-1.6.2.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="../lib/js/selectivizr-min.js"></script>
-    <![endif]-->
     <link rel="stylesheet" href="style/cv.css" media="all">
     <link rel="stylesheet" href="style/cv-layout.css" media="all and (min-width: 640px)">
-    <!--[if (lt IE 9)&(!IEMobile)]>
-    <link rel="stylesheet" href="style/cv-layout.css" media="all">
-    <![endif]-->
     <link rel="stylesheet" href="style/cv-layout.css" media="print">
     <link rel="stylesheet" href="style/cv-print.css" media="print">
 </head>
 <body class="vcard">
-<!--
-  /**************************/
- /* === Trick or treat === */
-/**************************/
-Thank you for taking a look at the source code,
-it means you really do care about it
-and I haven't wasted my time working on it
-(instead of doing a better-looking Word version).
-As you can see, I've used HTML5 Boilerplate as the
-base template, Selectivizr for old IEs CSS3 support
-and hCard microformat for a little bit of semantic.
-Plus there's a little trick if you go over my name :)
--->
 <hgroup>
-    <h1 class="fn n" data-pron="{{person.pron}}"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
-    <!-- Yes, my name is pronounced as the english Julia  -->
+    <h1 class="fn n"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
     <h2>Curriculum Vitae</h2>
 </hgroup>
 

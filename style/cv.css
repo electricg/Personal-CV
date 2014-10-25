@@ -115,32 +115,6 @@ a.url {
     word-wrap:break-word;
 }
 
-/* tooltip */
-h1 {
-    cursor: help;
-    position: relative;
-}
-h1:hover:after, h1:focus:after {
-    background-color: #D5DFE5;
-    border: 1px solid #069;
-    color: #333;
-    content: attr(data-pron);
-    font: normal normal 61.5% Verdana;
-    left: 15%;
-    padding: 2px;
-    position: absolute;
-    top: 100%;
-    white-space: nowrap;
-    z-index: 10;
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
-}
-
-.ie9 a.url {
-    display:block;
-}
-
 
 @media screen {
     html {
