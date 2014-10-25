@@ -2,7 +2,7 @@ DirectoryIndex cv.php index.html
 AddHandler x-mapp-php6 .html
 RewriteEngine On
 ## uncomment following line for 1and1 hosting
-RewriteBase /cv
+# RewriteBase /cv
 RewriteRule cv.html cv.php [L]
 RewriteRule cv.htm cv-controller.php [L]
 RewriteRule giuliaalfonsi-cv.rtf cv-controller.php?f=rtf [L]
