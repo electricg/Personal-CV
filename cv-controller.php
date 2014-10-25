@@ -79,7 +79,6 @@ $tpl = $mustache->loadTemplate($template);
 $string = file_get_contents($json);
 
 // format metadata available inside json data
-$data['today'] = date("Y-m-d");
 $pattern = '|({{@)([\w]+)(}})|';
 function replacement($matches) {
     global $data;
@@ -88,6 +87,9 @@ function replacement($matches) {
 $string = preg_replace_callback($pattern, 'replacement', $string);
 
 $json = json_decode($string, true);
+
+// add today property
+$json['today'] = date("Y-m-d");
 
 $json = $d($json);
 

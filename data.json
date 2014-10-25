@@ -55,10 +55,10 @@
 	"employment": {
 		"items": [
 			{
+				"current": true,
 				"role": "Software Engineer",
 				"when": {
-					"from": "2014-09-17",
-					"to": "{{@today}}"
+					"from": "2014-09-17"
 				},
 				"where": {
 					"company": "Ocasta Studios",

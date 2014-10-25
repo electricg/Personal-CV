@@ -95,9 +95,14 @@
         <li>
             <p class="when">
             	<time datetime="{{when.from}}">{{%FILTERS}}{{when.from | month}} {{when.from | year}}</time>
-            	{{#when.to}}
-            	- <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
-            	{{/when.to}}
+                {{^current}}
+                	{{#when.to}}
+                	- <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
+                	{{/when.to}}
+                {{/current}}
+                {{#current}}
+                    - <time datetime="{{today}}">Present</time></p>
+                {{/current}}
             <h4>{{role}}</h4>
             <p class="where">{{where.company}} {{#where.location}}<span class="location">{{where.location}}</span>{{/where.location}}</p>
             {{#what}}
