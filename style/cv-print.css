@@ -1,4 +1,9 @@
+html,
 body {
+	background: transparent;
+}
+body {
+	color: #000;
     margin: 10px auto;
     width: 700px;
 }

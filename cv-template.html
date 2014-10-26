@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="style/cv-print.css" media="print">
 </head>
 <body class="vcard">
-<hgroup>
+<header>
     <h1 class="fn n"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
     <h2>Curriculum Vitae</h2>
-</hgroup>
+</header>
 
 {{#portfolio}}
 <section id="portfolio">
@@ -30,7 +30,7 @@
 {{#contact}}
 <section id="contact">
     <h3>Contact</h3>
-    <dl class="clearfix">
+    <dl>
         {{#tel}}
         <dt>Tel:</dt>
             <dd class="tel">{{tel}}</dd>
@@ -137,7 +137,7 @@
 {{#about}}
 <section id="about">
     <h3>About</h3>
-    <dl class="clearfix">
+    <dl>
     	{{#items}}
         <dt>{{title}}:</dt>
         	{{#value}}

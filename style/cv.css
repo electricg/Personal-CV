@@ -1,43 +1,55 @@
-/*  HTML5 ✰ Boilerplate  */
-html, body, span, h1, h2, h3, h4, p,
+html, body, h1, h2, h3, h4, p,
 dl, dt, dd, ol, ul, li,
-hgroup, section, time {
+header, section {
     margin:0;
     padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
     letter-spacing:normal;
     word-spacing:normal;
 }
-ol, ul, li { list-style: none; }
-hgroup, section { display:block; }
-a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; letter-spacing:normal; word-spacing:normal; }
-body { font:13px/1.231 sans-serif; *font-size:small; }
-h1,h2,h3,h4 { font-weight: bold; }
-::-moz-selection{ background: #069; color:#fff; text-shadow: none; }
-::selection { background:#069; color:#fff; text-shadow: none; }
-a:link { -webkit-tap-highlight-color: #FF5E99; }
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
-/* Primary Styles */
 html {
-/*    width: 640px;*/
+    background: #069;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
 }
 body {
-    background-color: #FFF;
-    color: #000;
-    font-family: Verdana;
-    line-height: 1.5;
+    background: #EEE;
+    color: #333;
+    font: 13px/1.5 Verdana, sans-serif;
     margin: 1px;
     padding: 2em;
 }
-hgroup, section {
+header, section {
+    display: block;
     margin-bottom: 22px;
+}
+::-moz-selection{
+    background: #069;
+    color: #FFF;
+    text-shadow: none;
+}
+::selection {
+    background: #069;
+    color: #FFF;
+    text-shadow: none;
+}
+a:link, a:visited, a:hover, a:focus, a:active {
+    background: transparent;
+    border-bottom: 0 solid;
+    color: #069;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:hover, a:focus, a:active {
+    border-bottom: 1px solid;
+}
+a.portfolio {
+    font-size: 174%;
+    font-weight: bold;
+    letter-spacing:normal;
+    word-spacing:normal;
+}
+a.url {
+    word-wrap: break-word;
 }
 h1 {
     font-size: 197%;
@@ -48,16 +60,15 @@ h2 {
 h3 {
     font-size: 116%;
 }
-a.portfolio {
-    font-size: 174%;
-    font-weight: bold;
-}
 dt, dd {
     display: block;
     margin-top: 0.25em;
 }
 dd {
     margin-left: 20px;
+}
+ol, ul, li {
+    list-style: none;
 }
 ul li {
     padding-left: 15px;
@@ -102,27 +113,4 @@ time {
     margin: 0.3em 0;
     text-align: justify;
     text-indent: 1em;
-}
-a:link, a:visited, a:hover, a:active {
-    border-bottom: 0 solid;
-    color: #069;
-    text-decoration: none;
-}
-a:hover, a:active {
-    border-bottom: 1px solid;
-}
-a.url {
-    word-wrap:break-word;
-}
-
-
-@media screen {
-    html {
-        background-color: #069;
-    }
-    body {
-        background-color: #EEE;
-        color: #333;
-        position: relative;
-    }
 }
