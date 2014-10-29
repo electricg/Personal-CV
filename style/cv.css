@@ -1,10 +1,13 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 html, body, h1, h2, h3, h4, p,
 dl, dt, dd, ol, ul, li,
 header, section {
-    margin:0;
-    padding:0;
-    letter-spacing:normal;
-    word-spacing:normal;
+    margin: 0;
+    padding: 0;
 }
 html {
     background: #069;
@@ -70,23 +73,20 @@ dd {
 ol, ul, li {
     list-style: none;
 }
-ul li {
-    padding-left: 15px;
-    text-indent: -15px;
+ul li:before,
+.where:before, #education h4:before {
+    color: #069;
+    content: "@";
+    font-weight: normal;
+    padding-right: 5px;
 }
 ul li:before {
-    color: #069;
     content: ".:";
-    display: inline-block;
-    padding: 0 5px 0 0;
-    text-align: right;
-    width: 10px;
 }
 ol li {
     border-bottom: 1px dotted #069;
     margin-top: 5px;
     padding-bottom: 5px;
-    width: 100%;
 }
 ol li:last-child {
     border-bottom: 0 none;
@@ -94,23 +94,16 @@ ol li:last-child {
 }
 time {
     font-style: italic;
-    font-weight: normal;
-}
-.where:before, #education h4:before {
-    color: #069;
-    content: "@";
-    font-weight: normal;
-    margin: 0;
-    padding: 0 0.2em;
 }
 .location {
     color: #666;
     font-size: 93%;
-    font-weight: normal;
-    padding: 0 0 0 4px;
+    padding-left: 5px;
 }
 #intro p, .what, .what-dett {
     margin: 0.3em 0;
     text-align: justify;
+}
+#intro p, .what-dett {
     text-indent: 1em;
 }
