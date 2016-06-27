@@ -1,9 +1,9 @@
 <?php
 $data['telephone'] = '07411480415';
 $data['email'] = 'giulia.alfonsi@gmail.com';
-$data['street-address'] = 'Flat 3, 8 Sackville Gardens';
+$data['street-address'] = 'Flat 2, 19 Goldsmid Road';
 $data['locality'] = 'Hove';
-$data['postal-code'] = 'BN3 4GH';
+$data['postal-code'] = 'BN3 1QA';
 
 $open = 'cv-controller.php';
 $pattern_private = '|({#)([\w\-]+)(#})|';

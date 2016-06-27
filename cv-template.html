@@ -41,7 +41,7 @@ and hCard microformat for a little bit of semantic.
 Plus there's a little trick if you go over my name :)
 -->
 <hgroup>
-    <h1 class="fn n" data-pron="{{person.pron}}"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
+    <h1 class="fn n"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
     <!-- Yes, my name is pronounced as the english Julia  -->
     <h2>Curriculum Vitae</h2>
 </hgroup>
@@ -65,18 +65,6 @@ Plus there's a little trick if you go over my name :)
         <dt>Email:</dt>
             <dd><a href="mailto:{{email}}" class="email url">{{email}}</a></dd>
         {{/email}}
-        {{#address}}
-        <dt>Address:</dt>
-            <dd class="adr">
-            	<span class="street-address">{{street-address}}</span>,
-            	<span class="locality">{{locality}}</span>,
-            	<span class="postal-code">{{postal-code}}</span>
-            </dd>
-        {{/address}}
-        {{#skype}}
-        <dt>Skype:</dt>
-            <dd><a href="skype:{{skype}}?userinfo">{{skype}}</a></dd>
-        {{/skype}}
         {{#twitter}}
         <dt>Twitter:</dt>
             <dd><a href="http://twitter.com/{{twitter}}">@{{twitter}}</a></dd>
@@ -85,10 +73,6 @@ Plus there's a little trick if you go over my name :)
         <dt>GitHub:</dt>
             <dd><a href="http://github.com/{{github}}" class="url">http://github.com/{{github}}</a></dd>
         {{/github}}
-        {{#linkedin}}
-        <dt>Linkedin:</dt>
-            <dd><a href="http://www.linkedin.com/{{linkedin}}" class="url">http://www.linkedin.com/{{linkedin}}</a></dd>
-        {{/linkedin}}
     </dl>
 </section>
 {{/contact}}
@@ -134,26 +118,6 @@ Plus there's a little trick if you go over my name :)
     </ol>
 </section>
 {{/employment}}
-
-{{#education}}
-<section id="education">
-    <h3>Education</h3>
-    <ol>
-    	{{#items}}
-        <li>
-            <p class="when">
-            	<time datetime="{{when.from}}">{{when.from | month}} {{when.from | year}}</time>
-            	{{#when.to}}
-            	- <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time>
-            	{{/when.to}}
-            </p>
-            <h4>{{where}}</h4>
-            <p class="what">{{what}}</p>
-        </li>
-        {{/items}}
-    </ol>
-</section>
-{{/education}}
 
 {{#about}}
 <section id="about">
