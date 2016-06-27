@@ -66,7 +66,8 @@
 				},
 				"what": [
 					"I develop mobile websites and web apps.",
-					"I am the main developer of the <a target='_blank' href='http://electricomics.net/'>Electricomics</a> project, a self-publishing ecosystem for digital comics."
+					"I am the main developer of the <a target='_blank' href='http://electricomics.net/'>Electricomics</a> project, a self-publishing ecosystem for digital comics.",
+					"I am also responsible of the development of API servers using Node.js, hapi.js and MongoDB with full test coverage."
 				]
 			},
 			{
