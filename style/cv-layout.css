@@ -4,71 +4,72 @@ body {
     width: calc(4em + 80%);
 }
 
-header, #skills {
-    display: table;
-    width: 100%;
+header,
+#portfolio,
+#skills,
+dl,
+ol li {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
 }
-h1, h2, #skills h3, ul {
-    display: table-cell;
-}
-h1, #portfolio h3, #skills h3, ul, dt, .when {
+h1,
+h3,
+dt,
+.when {
     width: 30%;
+}
+h2,
+a.portfolio,
+dd,
+ul,
+h4,
+.where,
+#education .what {
+    padding-left: 20px;
+    width: 70%;
+}
+#contact h3, #about h3 {
+    position: absolute;
+}
+dt {
+    text-align: right;
 }
 dd {
     margin-left: 0;
 }
-dd + dd {
+dd + dd,
+.where,
+#education .what {
     margin-left: 30%;
 }
-h2, h4, dd, .what, .where {
-    padding-left: 20px;
-    width: 70%;
-}
-ul {
-    width: 70%;
-}
-ul li {
-    padding-left: 20px;
-}
-#portfolio h3 {
-    margin-right: 20px;
-}
-
-#contact h3,
-#about h3 {
-    position: absolute;
-}
-#portfolio h3, h4, dt, dd, .when {
-    float: left;
-}
-dt {
-    clear: left;
-    text-align: right;
-}
-.what, .where {
-    float: right;
-}
-.what-dett {
-    clear: both;
-}
-
-h4, .where, ul li {
+ul li,
+.where,
+#education h4 {
     position: relative;
 }
-ul li:before, #education h4:before, .where:before {
-    right: 100%;
+ul li:before,
+.where:before,
+#education h4:before {
+    left: -20px;
+    padding-right: 0;
     position: absolute;
+    text-align: right;
+    width: 20px;
 }
-
+ul li:before {
+    left: -40px;
+}
+.when {
+    font-size: 0;
+}
 time {
     display: block;
+    font-size: 13px;
 }
-
-dl:before, ol li:before,
-dl:after, ol li:after {
-    content: " ";
-    display: table;
+time + time {
+    margin-left: 25%;
 }
-dl:after, ol li:after {
-    clear: both;
+time + time:before {
+    content: "to ";
 }
