@@ -1,28 +1,16 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>{{person.name}} {{person.surname}} &ndash; Curriculum Vitae</title>
     <meta name="description" content="{{person.name}} {{person.surname}} Curriculum Vitae">
     <meta name="author" content="{{person.name}} {{person.surname}}">
-    <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="profile" href="http://microformats.org/profile/hcard">
-    <script src="../lib/js/modernizr-2.0.6-jquery-1.6.2.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="../lib/js/selectivizr-min.js"></script>
-    <![endif]-->
     <link rel="stylesheet" href="style/cv.css" media="all">
     <link rel="stylesheet" href="style/cv-layout.css" media="all and (min-width: 640px)">
-    <!--[if (lt IE 9)&(!IEMobile)]>
-    <link rel="stylesheet" href="style/cv-layout.css" media="all">
-    <![endif]-->
     <link rel="stylesheet" href="style/cv-layout.css" media="print">
     <link rel="stylesheet" href="style/cv-print.css" media="print">
 </head>
@@ -42,7 +30,7 @@ Plus there's a little trick if you go over my name :)
 -->
 <hgroup>
     <h1 class="fn n"><span class="given-name">{{person.name}}</span> <span class="family-name">{{person.surname}}</span></h1>
-    <!-- Yes, my name is pronounced as the english Julia  -->
+    <!-- My name is pronounced as the English Julia  -->
     <h2>Curriculum Vitae</h2>
 </hgroup>
 
@@ -57,18 +45,10 @@ Plus there's a little trick if you go over my name :)
 <section id="contact">
     <h3>Contact</h3>
     <dl class="clearfix">
-        {{#tel}}
-        <dt>Tel:</dt>
-            <dd class="tel">{{tel}}</dd>
-        {{/tel}}
         {{#email}}
         <dt>Email:</dt>
             <dd><a href="mailto:{{email}}" class="email url">{{email}}</a></dd>
         {{/email}}
-        {{#twitter}}
-        <dt>Twitter:</dt>
-            <dd><a href="http://twitter.com/{{twitter}}">@{{twitter}}</a></dd>
-        {{/twitter}}
         {{#github}}
         <dt>GitHub:</dt>
             <dd><a href="http://github.com/{{github}}" class="url">http://github.com/{{github}}</a></dd>
@@ -102,35 +82,23 @@ Plus there's a little trick if you go over my name :)
     <h3>Employment</h3>
     <ol>
     	{{#items}}
+        {{#show}}
         <li>
             <p class="when">
             	<time datetime="{{when.from}}">{{%FILTERS}}{{when.from | month}} {{when.from | year}}</time>
             	{{#when.to}}
             	- <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
             	{{/when.to}}
-            <h4>{{role}}</h4>
+            <h4>{{{role}}}</h4>
             <p class="where">{{where.company}} {{#where.location}}<span class="location">{{where.location}}</span>{{/where.location}}</p>
             {{#what}}
             <p class="what-dett">{{{.}}}</p>
             {{/what}}
         </li>
+        {{/show}}
         {{/items}}
     </ol>
 </section>
 {{/employment}}
-
-{{#about}}
-<section id="about">
-    <h3>About</h3>
-    <dl class="clearfix">
-    	{{#items}}
-        <dt>{{title}}:</dt>
-        	{{#value}}
-            <dd>{{.}}</dd>
-            {{/value}}
-        {{/items}}
-    </dl>
-</section>
-{{/about}}
 </body>
 </html> 

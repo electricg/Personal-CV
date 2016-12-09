@@ -49,7 +49,7 @@ h3 {
     font-size: 116%;
 }
 a.portfolio {
-    font-size: 174%;
+    font-size: 200%;
     font-weight: bold;
 }
 dt, dd {
@@ -113,10 +113,6 @@ a:hover, a:active {
 }
 a.url {
     word-wrap:break-word;
-}
-
-.ie9 a.url {
-    display:block;
 }
 
 
