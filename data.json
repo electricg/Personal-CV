@@ -42,8 +42,9 @@
 		"items": [
 			"HTML5 / SVG",
 			"CSS / CSS3 (responsive, adaptive, crossdevice, crossbrowser)",
-			"SASS / SCSS",
+			"SASS / SCSS / PostCSS",
 			"JavaScript (ES6, DOM manipulation, Canvas, Progressive Web Apps) / jQuery",
+			"React.js / Redux",
 			"Node.js",
 			"MongoDB",
 			"PHP5 / MySql / LAMP",
@@ -55,10 +56,42 @@
 		"items": [
 			{
 				"show": true,
+				"role": "Senior Front-End Platform Engineer",
+				"when": {
+					"from": "2017-07-10",
+					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "Wantering Fashion Inc",
+					"location": "Vancouver, Canada"
+				},
+				"what": [
+					"I work with the Web Applications Platform team, the Product team and the UX team to deliver various features and functionalities for the company main website, <a href='http://www.whowhatwear.com/'>Who What Wear</a>",
+					"I define and lead company-wide adoption of JavaScript and CSS development best practices and standards.",
+					"I mentor and review the JavaScript and CSS development work of other developers."
+				]
+			},
+			{
+				"show": true,
+				"role": "Senior Developer",
+				"when": {
+					"from": "2017-02-21",
+					"to": "2017-06-30"
+				},
+				"where": {
+					"company": "Brilliant Noise",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop internal web app to help the company with their tasks."
+				]
+			},
+			{
+				"show": true,
 				"role": "Senior Front End Developer &mdash; Contract",
 				"when": {
 					"from": "2016-09-05",
-					"to": "{{@today}}"
+					"to": "2017-01-31"
 				},
 				"where": {
 					"company": "Chroma Sports",
