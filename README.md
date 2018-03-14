@@ -6,7 +6,7 @@ My personal curriculum vitae (minus some of my contact details, to avoid spam).
 I use [Mustache](http://mustache.github.io/) because is a logic-less templating system, easy to implement with any server side language (php in my case).  
 The data to populate the cv is the `data.json` file.
 
-##HTML version
+## HTML version
 I've used HTML5 Boilerplate as the base template, Selectivizr for old IEs CSS3 support and hCard microformat for a little bit of semantic.  
 The design is completely responsive.  
 Plus there's a little trick if you go with the mouse over my name.

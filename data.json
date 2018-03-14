@@ -1,8 +1,7 @@
 {
 	"person": {
 		"name": "Giulia",
-		"surname": "Alfonsi",
-		"pron": "|ˈdʒuːlɪə| |alˈfɒnsɪ|"
+		"surname": "Alfonsi"
 	},
 	"contact": {
 		"tel": "{#telephone#}",
@@ -25,7 +24,7 @@
 			},
 			{
 				"title": "Spoken languages",
-				"value": ["Italian (native)", "English (full professional proficiency)"]
+				"value": ["Italian (native)", "English (native)"]
 			}
 		]
 	},
@@ -35,42 +34,93 @@
 	},
 	"intro": {
 		"items": [
-			"I started studying HTML more in 1998 during high school, and since then I've never stopped learning about the new technologies that arise in the web, keeping myself updated through the use of RSS feeds earlier and Twitter now.",
-			"On the Front End side, I've always believed in and tried to reach the perfect division between semantic HTML markup and presentational CSS, trying to balance the clients' requests for a pixel-perfect design with the new techniques brought by modern browsers and with the cardinal idea of a web accessible to all.",
-			"Nowadays my interest is towards the new techniques and technologies that are involved in the web development for the multitude of devices available now and in the next future.",
+			"I started studying HTML in 1998 during high school, and since then I've never stopped learning about the new technologies that arise in the web, keeping myself updated through the use of RSS feeds, newsletters, Twitter and by attending conferences.",
 			"I'm not a “9-to-5” coder. I live this job as one of my passion and, as such, I put as much effort as I can into it, by studying everyday, trying to find best solutions for every task and by getting full understanding of my technical choices. Thus I expect to work for a company who considers this as a must for every developer, since I want to share knowledge with my colleagues and improve myself day by day with them."
 		]
 	},
 	"skills": {
 		"items": [
-			"XHTML1.0/HTML4.01 (strict mode) / HTML5 markup / SVG",
+			"HTML5 / SVG",
 			"CSS / CSS3 (responsive, adaptive, crossdevice, crossbrowser)",
-			"SASS / SCSS",
-			"JavaScript (DOM manipulation, AJAX, Canvas) / jQuery",
+			"SASS / SCSS / PostCSS",
+			"JavaScript (ES6, DOM manipulation, Canvas, Progressive Web Apps) / jQuery",
+			"React.js / Redux",
+			"Node.js",
+			"MongoDB",
 			"PHP5 / MySql / LAMP",
 			"Git",
-			"Adobe Fireworks",
 			"Mac, Windows, Linux (Debian/Ubuntu)"
 		]
 	},
 	"employment": {
 		"items": [
 			{
+				"show": true,
+				"role": "Senior Front-End Platform Engineer",
+				"when": {
+					"from": "2017-07-10",
+					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "Wantering Fashion Inc",
+					"location": "Vancouver, Canada"
+				},
+				"what": [
+					"I work with the Web Applications Platform team, the Product team and the UX team to deliver various features and functionalities for the company main website, <a href='http://www.whowhatwear.com/'>Who What Wear</a>",
+					"I define and lead company-wide adoption of JavaScript and CSS development best practices and standards.",
+					"I mentor and review the JavaScript and CSS development work of other developers."
+				]
+			},
+			{
+				"show": true,
+				"role": "Senior Developer",
+				"when": {
+					"from": "2017-02-21",
+					"to": "2017-06-30"
+				},
+				"where": {
+					"company": "Brilliant Noise",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop internal web app to help the company with their tasks."
+				]
+			},
+			{
+				"show": true,
+				"role": "Senior Front End Developer &mdash; Contract",
+				"when": {
+					"from": "2016-09-05",
+					"to": "2017-01-31"
+				},
+				"where": {
+					"company": "Chroma Sports",
+					"location": "Brighton, UK"
+				},
+				"what": [
+					"I develop responsive web apps, using vanilla JavaScript, that connect to third party APIs."
+				]
+			},
+			{
+				"show": true,
 				"role": "Software Engineer",
 				"when": {
 					"from": "2014-09-17",
-					"to": "{{@today}}"
+					"to": "2016-05-31"
 				},
 				"where": {
 					"company": "Ocasta Studios",
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop mobile websites and webapps."
+					"I develop mobile websites and web apps.",
+					"I am the main developer of the <a target='_blank' href='http://electricomics.net/'>Electricomics</a> project, a self-publishing ecosystem for digital comics.",
+					"I am also responsible of the development of API servers using Node.js, hapi.js and MongoDB with full test coverage."
 				]
 			},
 			{
-				"role": "Front End / JavaScript Developer - Contract",
+				"show": true,
+				"role": "Front End / JavaScript Developer &mdash; Contract",
 				"when": {
 					"from": "2014-02-25",
 					"to": "2014-08-22"
@@ -80,11 +130,12 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I work on <a href='http://jsbin.com/'>JS Bin</a>, a code sharing site that enables users to learn, experiment and teach using web technologies.",
-					"I also work on the website for <a href='http://2014.full-frontal.org/'>Full Frontal</a>, the UK's leading JavaScript conference."
+					"I work on <a target='_blank' href='http://jsbin.com/'>JS Bin</a>, a code sharing site that enables users to learn, experiment and teach using web technologies.",
+					"I also work on the website for <a target='_blank' href='http://2014.full-frontal.org/'>Full Frontal</a>, the UK's leading JavaScript conference."
 				]
 			},
 			{
+				"show": true,
 				"role": "Front End Developer",
 				"when": {
 					"from": "2013-06-17",
@@ -99,6 +150,7 @@
 				]
 			},
 			{
+				"show": true,
 				"role": "Front End Developer",
 				"when": {
 					"from": "2012-05-17",
@@ -113,6 +165,7 @@
 				]
 			},
 			{
+				"show": false,
 				"role": "Developer",
 				"when": {
 					"from": "2012-02-13",
@@ -127,6 +180,7 @@
 				]
 			},
 			{
+				"show": true,
 				"role": "User Interface Developer",
 				"when": {
 					"from": "2011-03-14",
@@ -142,44 +196,36 @@
 				]
 			},
 			{
-				"role": "Volunteer",
-				"when": {
-					"from": "2011-09-05"
-				},
-				"where": {
-					"company": "Update Conference - The human touch: iOS & beyond",
-					"location": "Brighton, UK"
-				},
-				"what": [
-					"Update was a new mobile conference taking place in Brighton Dome and Brighton Museum & Art Gallery, as part of the Brighton Digital Festival. I was one of the team of friendly volunteers welcoming some of the top names in iOS, web, and user experience to the city, registering attendees, and generally helping everything to run smoothly."
-				]
-			},
-			{
+				"show": false,
 				"role": "Freelance Web Developer",
 				"when": {
 					"from": "2010-11-01",
 					"to": "2011-01-31"
 				},
 				"where": {
-					"company": "Digitalinnovation"
+					"company": "Digitalinnovation",
+					"location": "Italy"
 				}
 			},
 			{
+				"show": true,
 				"role": "Web Developer",
 				"when": {
 					"from": "2008-01-28",
 					"to": "2010-04-16"
 				},
 				"where": {
-					"company": "Digitalinnovation"
+					"company": "Digitalinnovation",
+					"location": "Italy"
 				},
 				"what": [
-					"I created XHTML/CSS/JavaScript templates from PSD files, using SEO friendly markup and crossbrowser techniques to achieve pixel-perfect designs, from newest browsers to IE old versions, according to the clients' needs. I worked side by side with the graphic designers, combining their ideas with my technical knowledge and experience in the web field.",
-					"Using PHP and MySQL, I developed cms to facilitate the management of websites for small and big companies, with an eye on the user interface, adapting it for less technically experienced users.",
-					"I was involved in the planning and development of web-based accounting software, which was custom-made according to our client's needs and daily feedbacks.\nFor the development of this software I mostly used object-oriented PHP, AJAX, RTF (for the creation of documents) and I successfully installed a LAMP server in the company offices. This project also offered me the opportunity to improve my knowledge of jQuery, which was an important part in the creation of a clear, easy-to-use and fast user interface, enabling the filling of hundreds of daily forms."
+					"I create XHTML/CSS/JavaScript templates from PSD files, using SEO friendly markup and crossbrowser techniques.",
+					"Using PHP and MySQL, I develop cms to facilitate the management of websites for small and big companies.",
+					"I am involved in the planning and development of web-based accounting software, which is custom-made according to our client's needs and daily feedbacks, using object-oriented PHP, AJAX, RTF (for the creation of printed documents) and jQuery. I also successfully installed and managed a LAMP server in the company offices."
 				]
 			},
 			{
+				"show": false,
 				"role": "IT support and sales advisor",
 				"when": {
 					"from": "2002-12-04",
