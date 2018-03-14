@@ -34,13 +34,6 @@ Plus there's a little trick if you go over my name :)
     <h2>Curriculum Vitae</h2>
 </hgroup>
 
-{{#portfolio}}
-<section id="portfolio">
-    <h3>Portfolio</h3>
-    <a href="{{link}}" class="portfolio url">{{title}}</a>
-</section>
-{{/portfolio}}
-
 {{#contact}}
 <section id="contact">
     <h3>Contact</h3>
@@ -53,6 +46,10 @@ Plus there's a little trick if you go over my name :)
         <dt>GitHub:</dt>
             <dd><a href="http://github.com/{{github}}" class="url">http://github.com/{{github}}</a></dd>
         {{/github}}
+        {{#portfolio}}
+        <dt>Portfolio:</dt>
+            <dd><a href="{{link}}" class="url">{{link}}</a></dd>
+        {{/portfolio}}
     </dl>
 </section>
 {{/contact}}
@@ -70,7 +67,7 @@ Plus there's a little trick if you go over my name :)
 <section id="skills">
     <h3>Skills</h3>
     <ul>
-    	{{#items}}
+        {{#items}}
         <li>{{.}}</li>
         {{/items}}
     </ul>
@@ -81,14 +78,14 @@ Plus there's a little trick if you go over my name :)
 <section id="employment">
     <h3>Employment</h3>
     <ol>
-    	{{#items}}
+        {{#items}}
         {{#show}}
         <li>
             <p class="when">
-            	<time datetime="{{when.from}}">{{%FILTERS}}{{when.from | month}} {{when.from | year}}</time>
-            	{{#when.to}}
-            	- <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
-            	{{/when.to}}
+                <time datetime="{{when.from}}">{{%FILTERS}}{{when.from | month}} {{when.from | year}}</time>
+                {{#when.to}}
+                - <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
+                {{/when.to}}
             <h4>{{{role}}}</h4>
             <p class="where">{{where.company}} {{#where.location}}<span class="location">{{where.location}}</span>{{/where.location}}</p>
             {{#what}}
@@ -101,4 +98,4 @@ Plus there's a little trick if you go over my name :)
 </section>
 {{/employment}}
 </body>
-</html> 
+</html>
