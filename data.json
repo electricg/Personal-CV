@@ -11,8 +11,6 @@
 			"locality": "{#locality#}",
 			"postal-code": "{#postal-code#}"
 		},
-		"skype": "electric_g",
-		"twitter": "electric_g",
 		"github": "electricg",
 		"linkedin": "in/giuliaalfonsi"
 	},
@@ -246,33 +244,6 @@
 				"what": [
 					"I assembled and sold computers and gave software, hardware and on-site advice and assistance. I developed websites and accounting software using ASP and Access."
 				]
-			}
-		]
-	},
-	"education": {
-		"items": [
-			{
-				"when": {
-					"from": "2003-10-01",
-					"to": "2007-08-31"
-				},
-				"where": "Università degli Studi di Parma",
-				"what": "Information Technology"
-			},
-			{
-				"when": {
-					"from": "2001-05-01"
-				},
-				"where": "University of Cambridge",
-				"what": "Key English Test (KET): Pass with Merit"
-			},
-			{
-				"when": {
-					"from": "1997-09-15",
-					"to": "2002-07-02"
-				},
-				"where": "Istituto Tecnico Statale Per Geometri Camillo Rondani",
-				"what": "High school"
 			}
 		]
 	}
