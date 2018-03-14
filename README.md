@@ -35,4 +35,3 @@ Because I've been asked often in the past to provide the Office Word version of 
 The basic template `cv-template.rtf` has been created using TextEdit on Mac OS X, which provides a clean and simple file to subsequently edit with a text editor like Sublime Text. This last step is necessary because in rtf format the characters `{ }` are escaped, while Mustache templating system requires them to be unescaped.
 
 The compiled version is created by accessing `cv-controller.php?f=rtf`.
-[![Analytics](https://ga-beacon.appspot.com/UA-35209681-4/Personal-CV/readme?pixel)](https://github.com/igrigorik/ga-beacon)
