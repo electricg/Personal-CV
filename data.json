@@ -42,9 +42,10 @@
 		"items": [
 			"HTML5 / SVG",
 			"CSS / CSS3 (responsive, adaptive, crossdevice, crossbrowser)",
-			"SASS / SCSS / PostCSS",
-			"JavaScript (ES6, DOM manipulation, Canvas, Progressive Web Apps) / jQuery",
+			"Sass / SCSS / PostCSS",
+			"JavaScript (ES6, DOM manipulation, Canvas, Progressive Web Apps)",
 			"React.js / Redux",
+			"jQuery",
 			"Node.js",
 			"MongoDB",
 			"PHP5 / MySql / LAMP",
@@ -62,13 +63,14 @@
 					"to": "{{@today}}"
 				},
 				"where": {
-					"company": "Wantering Fashion Inc",
+					"company": "Clique",
 					"location": "Vancouver, Canada"
 				},
 				"what": [
-					"I work with the Web Applications Platform team, the Product team and the UX team to deliver various features and functionalities for the company main website, <a href='http://www.whowhatwear.com/'>Who What Wear</a>",
-					"I define and lead company-wide adoption of JavaScript and CSS development best practices and standards.",
-					"I mentor and review the JavaScript and CSS development work of other developers."
+					"I work with the Web Applications Platform team, the Product team and the UX team to deliver various features and functionalities for the company multidomain websites, <a target='_blank' href='http://www.whowhatwear.com'>WhoWhatWear</a>, <a target='_blank' href='http://www.mydomaine.com'>MyDomaine</a> and <a target='_blank' href='http://www.byrdie.com'>Byrdie</a>.",
+					"I collaborate with the designer in creating style guides and reusable web components that are consistent under both the user experience aspect and the development aspect.",
+					"I define and lead company-wide adoption of JavaScript, React.js and CSS development best practices and standards.",
+					"I mentor and review the JavaScript, React.js and CSS development work of other developers."
 				]
 			},
 			{
@@ -83,12 +85,14 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop internal web app to help the company with their tasks."
+					"I develop internal web apps and tools to help the company with their tasks, using mainly Node.js, WordPress and Google API.",
+					"I collaborate daily with the designers, the project managers and the client partners to understand their needs and to strategize and plan the best course of actions to help them meet the clients' digital needs.",
+					"I am the technical manager of another developer, managing their tasks, mentoring them and guiding them towards better code and new technical solutions."
 				]
 			},
 			{
 				"show": true,
-				"role": "Senior Front End Developer &mdash; Contract",
+				"role": "Senior Front End Developer",
 				"when": {
 					"from": "2016-09-05",
 					"to": "2017-01-31"
@@ -98,7 +102,8 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop responsive web apps, using vanilla JavaScript, that connect to third party APIs."
+					"I am the technical lead of the redevelopment of the multi-domain multi-country sports betting website. The project involves creating a fast, light, responsive website that runs smoothly on low-end Android smartphones, the main type of devices used by our customers in Africa.",
+					"I collaborate daily with the API developers to build a system that follows the REST standards and that meets the needs of our product, and I review the JavaScript and CSS of the other developers, while also coding features and checking weekly with the product manager that we are meeting the requirements."
 				]
 			},
 			{
@@ -113,9 +118,11 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop mobile websites and web apps.",
-					"I am the main developer of the <a target='_blank' href='http://electricomics.net/'>Electricomics</a> project, a self-publishing ecosystem for digital comics.",
-					"I am also responsible of the development of API servers using Node.js, hapi.js and MongoDB with full test coverage."
+					"I am the lead front end developer in a mixed team of web, back end, iOS and Android developers.",
+					"I am the main developer on the <a target='_blank' href='http://electricomics.net'>Electricomics</a> project, a self-publishing ecosystem for digital comics which lets you create, package, and publish your own web digital comics with open source frameworks.",
+					"I collaborate with the comics writers and artists to bring to the web four of their stories, experimenting with the possibilities given by the browsers API like device tilting, animations, sounds, user interactions, all using the latest JavaScript and CSS techniques.",
+					"Using NW.js (a precursor of Electron) and Node.js, I create two desktop apps: one allows user with no development knowledge to create comics in HTML by simply drag&dropping images into a canvas; the other is the reader of said digital comics, that downloads, stores and shows the collections of web comics created by the community.",
+					"I am also responsible for the development of REST API servers using Node.js, hapi.js and MongoDB with full test coverage and TDD methodology."
 				]
 			},
 			{
@@ -130,8 +137,8 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I work on <a target='_blank' href='http://jsbin.com/'>JS Bin</a>, a code sharing site that enables users to learn, experiment and teach using web technologies.",
-					"I also work on the website for <a target='_blank' href='http://2014.full-frontal.org/'>Full Frontal</a>, the UK's leading JavaScript conference."
+					"I work on <a target='_blank' href='http://jsbin.com/'>JS Bin</a>, a code sharing site that enables users to learn, experiment and teach using web technologies. I develop using vanilla JavaScript on the front end and Node.js with Express on the back end.",
+					"I also work on the website for <a target='_blank' href='http://2014.full-frontal.org/'>Full Frontal</a>, the UK's leading JavaScript conference, for which I use the latest SVG and CSS responsive techniques."
 				]
 			},
 			{
@@ -146,7 +153,8 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop the user interface of DC Storm web applications using Ext JS, JavaScript and Css."
+					"I develop the user interface of DC Storm web applications using Ext JS, JavaScript and CSS.",
+					"I work along the other developers to create excellent code and solutions and to help each other improve our skills."
 				]
 			},
 			{
@@ -161,7 +169,8 @@
 					"location": "Brighton, UK"
 				},
 				"what": [
-					"I develop the front end code for our clients' projects, using Html, Css, Sass, JavaScript and jQuery, through the last cutting-edge techniques to support all the variety of devices, resolutions and bandwidths."
+					"I develop the front end code for our clients' projects, using HTML, CSS, Sass, JavaScript and jQuery, through the last cutting-edge techniques to support all the variety of devices, resolutions and bandwidths.",
+					"I collaborate daily with the back end developers, the project manager and the clients to make sure we deliver on time, on budget and on scope."
 				]
 			},
 			{
