@@ -55,7 +55,7 @@
 		"items": [
 			{
 				"show": true,
-				"role": "Senior Front-End Engineer",
+				"role": "Senior Frontend Engineer",
 				"when": {
 					"from": "2018-10-05",
 					"current": true
@@ -63,7 +63,10 @@
 				"where": {
 					"company": "ZenHub",
 					"location": "Vancouver, Canada"
-				}
+				},
+				"what": [
+					"I work in the engineering team to create, deliver and maintain features and functionalities for ZenHub, which is an Agile Project Management for GitHub."
+				]
 			},
 			{
 				"show": true,
