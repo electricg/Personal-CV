@@ -86,6 +86,9 @@ Plus there's a little trick if you go over my name :)
                 {{#when.to}}
                 - <time datetime="{{when.to}}">{{when.to | month}} {{when.to | year}}</time></p>
                 {{/when.to}}
+                {{#when.current}}
+                - <time>Present</time>
+                {{/when.current}}
             <h4>{{{role}}}</h4>
             <p class="where">{{where.company}} {{#where.location}}<span class="location">{{where.location}}</span>{{/where.location}}</p>
             {{#what}}
