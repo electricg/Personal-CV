@@ -55,10 +55,22 @@
 		"items": [
 			{
 				"show": true,
+				"role": "Senior Front-End Engineer",
+				"when": {
+					"from": "2018-10-05",
+					"to": "{{@today}}"
+				},
+				"where": {
+					"company": "ZenHub",
+					"location": "Vancouver, Canada"
+				}
+			},
+			{
+				"show": true,
 				"role": "Senior Front-End Platform Engineer",
 				"when": {
 					"from": "2017-07-10",
-					"to": "{{@today}}"
+					"to": "2018-03-21"
 				},
 				"where": {
 					"company": "Clique",
@@ -90,7 +102,7 @@
 			},
 			{
 				"show": true,
-				"role": "Senior Front End Developer",
+				"role": "Senior Front End Developer & Technical Lead",
 				"when": {
 					"from": "2016-09-05",
 					"to": "2017-01-31"
