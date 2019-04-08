@@ -55,18 +55,6 @@
 		"items": [
 			{
 				"show": true,
-				"role": "Senior Front-End Engineer",
-				"when": {
-					"from": "2018-10-05",
-					"to": "{{@today}}"
-				},
-				"where": {
-					"company": "ZenHub",
-					"location": "Vancouver, Canada"
-				}
-			},
-			{
-				"show": true,
 				"role": "Senior Front-End Platform Engineer",
 				"when": {
 					"from": "2017-07-10",
